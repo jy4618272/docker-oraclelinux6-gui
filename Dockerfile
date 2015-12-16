@@ -1,4 +1,4 @@
-FROM babim/oraclelinux6base
+FROM babim/oraclelinux6base:ssh
 
 MAINTAINER "Duc Anh Babim" <ducanh.babim@yahoo.com>
 
