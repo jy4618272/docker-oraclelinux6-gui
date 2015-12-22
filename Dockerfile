@@ -16,6 +16,7 @@ RUN chmod +x /usr/sbin/runssh.sh
 
 ENV AUTHORIZED_KEYS **None**
 ENV LC_ALL en_US.UTF-8
+ENV TZ Asia/Ho_Chi_Minh
 # Define working directory.
 WORKDIR /data
 
