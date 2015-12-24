@@ -6,9 +6,6 @@ RUN yum -y groupinstall "Desktop" "Desktop Platform" "X Window System" "Fonts" &
     yum install gedit file-roller firefox nano iputils tigervnc-server -y && \
     yum clean all
 
-ADD runssh.sh /usr/sbin/runssh.sh
-RUN chmod +x /usr/sbin/runssh.sh
-
 # Define default command.
 CMD ["vncserver"]
 
